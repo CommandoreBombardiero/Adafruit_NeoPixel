@@ -48,8 +48,8 @@
 //Locate Delay.h file in your local Marlin copy: Marlin 2.0/Marlin/Marlin/src/HAL/shared/Delay.h
 //and enter full path to this file below
 
-#include "C:\Users\Fernando\Documents\GitHub\Marlin\Marlin\src\HAL\shared\Delay.h"
-
+//#include "C:\Users\Fernando\Documents\GitHub\Marlin\Marlin\src\HAL\shared\Delay.h"
+#include "../../../../../Marlin/Marlin/src/HAL/shared/Delay.h"
 
 #ifdef TARGET_LPC1768
   #include <time.h>
